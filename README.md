@@ -3,7 +3,7 @@ Runs firefox in a docker container
 
 Uses *centos* under the hood (I guess that any distr will do)
 
-Downloads and install NoScript and uBlock addons for firefox
+Downloads and install NoScript, uBlock and 'Random agent spoofer' addons for firefox
 
 The following files are available:
 - **Dockerfile** 
