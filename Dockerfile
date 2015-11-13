@@ -14,5 +14,8 @@ RUN wget https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454
 # download noscript
 RUN wget https://addons.mozilla.org/firefox/downloads/latest/722/addon-722-latest.xpi
 
+# download random agent spoofer
+RUN wget https://addons.mozilla.org/firefox/downloads/file/313188/random_agent_spoofer-0.9.5.2-fx.xpi
+
 USER firefox
 
