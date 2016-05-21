@@ -1,6 +1,6 @@
 FROM centos
 
-RUN yum upgrade -y && yum install -y firefox dbus wget
+RUN yum upgrade -y && yum install -y firefox dbus wget && yum clean all
 
 RUN groupadd -f -g 1000 firefox && \
     adduser --uid 1000 --gid 1000 --create-home firefox && \
