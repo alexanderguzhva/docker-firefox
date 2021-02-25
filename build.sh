@@ -1,1 +1,1 @@
-docker build --tag=docker-ff .
+docker build --tag=firefox-v4 .
